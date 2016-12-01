@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Scenes" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" class="">
+	<ns1:CardPrototype id="Card00" x="141" y="112" skinName="Prefabs.CardPrototype"/>
+	<ns1:CardPrototype id="Card01" x="356" y="106" skinName="Prefabs.CardPrototype"/>
+	<ns1:CardPrototype id="Card02" x="555" y="105" skinName="Prefabs.CardPrototype"/>
+	<ns1:CardPrototype id="Card03" x="757" y="100" skinName="Prefabs.CardPrototype"/>
+	<ns1:CardPrototype id="Card04" x="1032" y="116" skinName="Prefabs.CardPrototype"/>
+	<ns1:CardPrototype id="Card05" x="136" y="371" skinName="Prefabs.CardPrototype"/>
+	<ns1:CardPrototype id="Card06" x="384" y="385" skinName="Prefabs.CardPrototype"/>
+	<ns1:CardPrototype id="Card07" x="628" y="389" skinName="Prefabs.CardPrototype"/>
+	<ns1:CardPrototype id="Card08" x="863" y="402" skinName="Prefabs.CardPrototype"/>
+	<ns1:CardPrototype id="Card09" x="1088" y="407" skinName="Prefabs.CardPrototype"/>
+</e:Skin>

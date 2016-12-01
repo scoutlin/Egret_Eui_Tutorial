@@ -12,6 +12,8 @@ var game_file_list = [
 	"bin-debug/AssetAdapter.js",
 	"bin-debug/LoadingUI.js",
 	"bin-debug/Main.js",
+	"bin-debug/Prefabs/CardPrototype.js",
+	"bin-debug/Scenes/MainScene.js",
 	"bin-debug/ThemeAdapter.js",
 	//----auto game_file_list end----
 ];
