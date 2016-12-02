@@ -124,15 +124,20 @@ class Main extends eui.UILayer {
         }
     }
     private textfield:egret.TextField;
+    private mainScene:MainScene;
     /**
      * 创建场景界面
      * Create scene interface
      */
     protected startCreateScene(): void
     {
+        //Prefab
         var cardPrototype:CardPrototype = new CardPrototype();
         this.addChild(cardPrototype);
 
+        //Scene
+        this.mainScene = new MainScene();
+        this.addChildAt(this.mainScene, 0);
 
         let button = new eui.Button();
         button.label = "Click!";
@@ -195,11 +200,16 @@ class Main extends eui.UILayer {
      * 点击按钮
      * Click the button
      */
-    private onButtonClick(e: egret.TouchEvent) {
+    private onButtonClick(e: egret.TouchEvent)
+     {
+        this.mainScene.DoBreathForAllCard();
+
+        /*
         let panel = new eui.Panel();
         panel.title = "Title";
         panel.horizontalCenter = 0;
         panel.verticalCenter = 0;
         this.addChild(panel);
+        */
     }
 }

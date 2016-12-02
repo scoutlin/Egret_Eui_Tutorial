@@ -6,6 +6,6 @@ class CardPrototype extends eui.Component
     public constructor()
     {
         super();
-        this.skinName = "/resource/eui_Prefabs/CardPrototype.exml";
+        this.skinName = "/resource/eui_Prefabs/CardPrototype.exml";        
     }
 }
